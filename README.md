@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/crowdfunding-product-page-bMnf7HHXJ)
-- Live Site URL: [Live site URL](https://aliabuhumra.github.io/Crowdfunding-Product-Page/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/githubusersearchappsolution-ONG4D0r5o)
+- Live Site URL: [Live site URL](https://aliabuhumra.github.io/GitHub-user-search-app-solution/)
 
 ## My process
 
