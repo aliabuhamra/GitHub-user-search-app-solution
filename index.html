@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | GitHub user search app</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="logo">devfinder</h1>
+        <!-- Dark Mode Switch -->
+        <div class="theme-switch">
+          <label for="toggle" class="theme-switch__label">
+            <small class="theme-switch__name active">DARK</small>
+            <small class="theme-switch__name">Light</small>
+            <input
+              type="checkbox"
+              id="toggle"
+              class="theme-switch__btn"
+              name="toggle"
+            />
+            <svg class="theme-switch__icon sun active">
+              <use xlink:href="assets/sprite.svg#icon-sun"></use>
+            </svg>
+            <svg class="theme-switch__icon moon">
+              <use xlink:href="assets/sprite.svg#icon-moon"></use>
+            </svg>
+          </label>
+        </div>
+      </header>
+
+      <form class="search">
+        <div class="search-bar">
+          <input
+            type="search"
+            class="search-bar__input"
+            placeholder="Search GitHub username..."
+            name="search"
+          />
+          <small class="search-bar__message search-bar__message--eros"
+            >No results</small
+          >
+          <button type="submit" class="search-bar__submit">Search</button>
+        </div>
+      </form>
+
+      <main>
+        <article class="profile">
+          <header class="profile-head">
+            <img
+              class="profile__photo"
+              src="https://i.pravatar.cc/300"
+              alt="brand"
+            />
+            <div class="profile__info">
+              <h2 class="profile__name">The octocat</h2>
+              <h3 class="profile__user-name">@octocat</h3>
+              <h4 class="profile__date">Joined <time> 25 Jan 2011</time></h4>
+            </div>
+          </header>
+          <section>
+            <p class="profile__des">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+              odio. Quisque volutpat mattis eros.
+            </p>
+            <div class="row profile-boxs">
+              <div class="profile-box">
+                <h4 class="profile-box__heading">Repos</h4>
+                <p class="profile-box__sub">8</p>
+              </div>
+
+              <div class="profile-box">
+                <h4 class="profile-box__heading">Followers</h4>
+                <p class="profile-box__sub">3839</p>
+              </div>
+
+              <div class="profile-box">
+                <h4 class="profile-box__heading">Following</h4>
+                <p class="profile-box__sub">9</p>
+              </div>
+            </div>
+          </section>
+
+          <footer>
+            <ul class="profile-links">
+              <li class="profile-links__item">
+                <svg class="profile__icon">
+                  <use xlink:href="assets/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <a class="profile-links__link" href="#">San Francisco</a>
+              </li>
+
+              <li class="profile-links__item">
+                <svg class="profile__icon">
+                  <use xlink:href="assets/sprite.svg#icon-link"></use>
+                </svg>
+                <a class="profile-links__link" href="#">
+                  https://github.blog
+                </a>
+              </li>
+
+              <li class="profile-links__item">
+                <svg class="profile__icon">
+                  <use xlink:href="assets/sprite.svg#icon-twitter"></use>
+                </svg>
+                <a class="profile-links__link inactive" href="#"
+                  >Not Available</a
+                >
+              </li>
+
+              <li class="profile-links__item">
+                <svg class="profile__icon">
+                  <use xlink:href="assets/sprite.svg#icon-office"></use>
+                </svg>
+                <a class="profile-links__link" href="#">@github</a>
+              </li>
+            </ul>
+          </footer>
+        </article>
+      </main>
+    </div>
+
+    <script type="module" src="js/ui.js"></script>
+    <script type="module" src="js/helper.js"></script>
+    <script type="module" src="js/mode.js"></script>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+:root {
+  // --clr-primary: #f6f8ff;
+  --clr-white: #ffffff;
+  --clr-logo: #2b3442;
+  --clr-bg-1: #f2f2f2;
+  --clr-bg-2: var(--clr-white);
+  --clr-text-1: #4b6a9b;
+  --clr-text-2: #2b3442;
+  --clr-icon-1: #697c9a;
+  --clr-primary-1: #0079ff;
+
+  --fs-h1: 2.6rem;
+  --fs-h2: 2.2rem;
+  --fs-h3: 1.6rem;
+  --fs-h4: 1.3rem;
+
+  --fs-h1-lh: 3.8rem;
+  --fs-h2-lh: 3.3rem;
+  --fs-h3-lh: 2.4rem;
+  --fs-h4-lh: 2rem;
+
+  --shadow-dark: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+}
+
+[data-theme="dark"] {
+  --clr-logo: #ffffff;
+  --clr-white: #ffffff;
+  --clr-bg-1: #141d2f;
+  --clr-bg-2: #1e2a47;
+  --clr-text-1: var(--clr-white);
+  --clr-text-2: var(--clr-white);
+  --clr-icon-1: var(--clr-white);
+  --clr-primary-1: #0079ff;
+  --clr-primary-3: rgb(20, 29, 47);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6;
+
+  background-color: var(--clr-bg-1);
+  min-height: 100vh;
+}
+
+body,
+small {
+  font-family: "Space Mono";
+}
