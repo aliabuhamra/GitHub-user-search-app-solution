@@ -1,7 +1,7 @@
 # GitHub user search app solution
 
-![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/Crowdfunding-Product-Page)
-![github contributors](https://img.shields.io/github/contributors/aliabuhumra/Crowdfunding-Product-Page)
+![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/GitHub-user-search-app-solution)
+![github contributors](https://img.shields.io/github/contributors/aliabuhumra/GitHub-user-search-app-solution)
 ![github twiter](https://img.shields.io/twitter/follow/AliAbuhumra?style=social)
 
 ## Welcome! 👋
